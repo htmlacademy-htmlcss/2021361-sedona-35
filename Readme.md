@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Перцев](https://up.htmlacademy.ru/htmlcss/35/user/2021361).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
