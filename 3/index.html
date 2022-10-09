@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <base href="https://htmlacademy-htmlcss.github.io/2021361-sedona-35/3/">
+</head>
+  <body>
+    <h1 class="visually-hidden">
+      Сайт-визитка города сейдона - главная страница.
+    </h1>
+
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img
+          class="page-header__logo-image"
+          src="./images/logo.svg"
+          alt="Логотип"
+        />
+      </a>
+
+      <nav class="header-navigation">
+        <h2 class="visually-hidden">Основная навигация по сайту</h2>
+
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-current" href=""
+              >Главная</a
+            >
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="hotels.html">Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation-user-tools">
+          <li class="navigation-tool">
+            <a class="tool-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-tool">
+            <a class="tool-link" href="#">
+              <span class="visually-hidden">Ваша оценка</span>
+            </a>
+          </li>
+          <li class="tool-link">
+            <a href="#">
+              <span>ХОЧУ СЮДА!</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="index-page-main">
+      <h2 class="visually-hidden">
+        Блок с описаниями достопримечательностей города Сейдона
+      </h2>
+
+      <div class="welcome-poster">
+        <div class="description about-description">
+          <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
+      </div>
+
+      <section class="page-main__about">
+        <ul class="attractions-list">
+          <li class="page-main__attraction">
+            <h3>Настоящий городок</h3>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="city.png" alt="пейзаж города" />
+          </li>
+          <li class="page-main__attraction">
+            <h3>Небольшая площадь</h3>
+            <img src="line.svg" alt="разделитель" />
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="page-main__attraction">
+            <h3>Красивая дорога</h3>
+            <img src="line.svg" alt="разделитель" />
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="page-main__attraction">
+            <h3>Мало туристов</h3>
+            <img src="line.svg" alt="разделитель" />
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+          <li class="page-main__attraction">
+            <img src="devil-place.png" alt="пейзаж мост дьявола" />
+            <h3>Там есть мост дьявола</h3>
+            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </li>
+          <li class="page-main__attraction">
+            <img src="aparment.png" alt="иконка жилье" />
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li class="page-main__attraction">
+            <img src="food.png" alt="иконка еда" />
+            <h3>Еда</h3>
+            <p>
+              Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
+            </p>
+          </li>
+          <li class="page-main__attraction">
+            <img src="souvenir.png" alt="иконка сувениры" />
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и настоящего местного производства!</p>
+          </li>
+        </ul>
+
+        <div class="description about-description">
+          <h2>Заинтересовались?</h2>
+          <p>
+            Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+            предложения гостиниц в Седоне
+          </p>
+          <a href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        </div>
+      </section>
+
+      <section class="page-main__subscribe">
+        <h2 class="visually-hidden">
+          Блок подписки на новостную рассылку по электронной почте
+        </h2>
+
+        <div class="description subscribe-description">
+          <h2>Подпишитесь на рассылку</h2>
+          <p>
+            Только полезная информация и никакого спама, честное бойскаутское!
+          </p>
+        </div>
+
+        <form
+          class="subscribe-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <label>
+            <input type="email" name="email" placeholder="Ваш e-mail" />
+          </label>
+          <button type="submit">ПОДПИСАТЬСЯ</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <section class="social">
+        <h2 class="visually-hidden">
+          Социальные сети администрации города Сейдона
+        </h2>
+
+        <ul class="socials-list">
+          <li class="social-item">
+            <a class="social-button" href="#">
+              <img src="./images/icons/vk-icon.svg" width="47.33px" height="40px" alt="логотип Вконтакте">
+              <span class="visually-hidden">Вконтакте</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="#">
+              <img src="./images/icons/telegram-icon.svg" width="47.33px" height="40px" alt="логотип Телеграм">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="#">
+              <img src="./images/icons/youtube-icon.svg" width="47.33px" height="40px" alt="логотип Вконтакте">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contacts-phone-number">
+        <h2 class="visually-hidden">
+          Контактный телефон администрации города Сейдона
+        </h2>
+        <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </section>
+
+      <section class="web-developers">
+        <h2 class="visually-hidden">Разработчик сайта</h2>
+        <a href="https://htmlacademy.ru"
+          ><img src="/images/logo_htmlacademy.svg" alt="логитип разработчика"
+        /></a>
+      </section>
+    </footer>
+  </body>
+</html>
