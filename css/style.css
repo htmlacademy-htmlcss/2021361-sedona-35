@@ -1,19 +1,22 @@
 .welcome-poster {
   display: block;
-  background-image: url(../images/welcome-background.png);
-  height: 485px;
+  background-image: url(../images/welcome-background.jpg);
+
   width: 1200px;
+  height: 767px;
 }
 
-.welcome-poster-image {
-  position: relative;
-  top: 51px;
-  left: 371px;
+.page-main__subscribe {
+  background-image: url(../images/subscibe-background.jpg);
+  width: 1200px;
+  height: 415px;
 }
 
-.welcome-poster-image-divider{
-  position: relative;
-  bottom: -72px;
+.filter-form {
+  background-image: url(../images/filter-form-background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 412px;
 }
 
 .visually-hidden {
